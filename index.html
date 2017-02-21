@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head lang="en-US">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="e.volve" />
+
+  <link rel="stylesheet" href="style1.css"  />
+  <link rel="stylesheet" type="text/css" media="all" href="animate.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="OwlCarousel2-2.2.0/dist/owl.carousel.min.js"></script>
+  <script src="imakewebthings-waypoints-34d9f6d/lib/noframework.waypoints.min.js"></script>
+  <script>src="https://cdnjs.cloudflare.com/ajax/libs/stellar-base/0.7.3/stellar-base.min.js"</script>
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Slab" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>TECH-WEEK-2017</title>
+</head>
+<body>
+  <div id="header">
+    <div id="particles-js">
+      <div id="logo">
+        <center>
+          <div class="animated hinge">
+            MISS   ME   ?
+          </div>
+          <img src="images/hack.png" alt="logo" height="120vh" width="auto"/>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <div id="waypoint" style="height:0; top:27vh; z-index:-1; position:absolute">
+  </div>
+  <div id="waypoint1" style="height:0; top:63vh; z-index:-1; position:absolute">
+  </div>
+
+  <div id="text-card-1" style="text-align:center">
+<br /><br /><br />
+    <div class="container-1">
+      <div class="item-1">
+        <h1>Hardware Hackathon</h1>
+        <p>
+          This will be an overnight hardware prototyping event on advancing technologies such as the Internet of Things, Intelligent Appliances, etc. Teams from all over India will be shortlisted on the basis of the creativity, practicality and ingenuity of their idea. This event is tentatively scheduled for the first weekend of the week, i.e. on 31 March and 1 April.
+        </p>
+      </div>
+      <div class="item-3">
+        <h1>Hack@NSIT 2017</h1>
+        <p>
+          This is the software counterpart of the Hardware Hackathon, and is scheduled for 7 and 8 April. The NSIT Software Hackathon has a rich pedigree, with its forebears such as the Andoidathon and Hack@NSIT being organised very successfully.  With an even greater budget and preparation envisioned for this year’s event, Hack@NSIT 2017 will be the ideal end for an eventful week.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <div class="item-1">
+        <h2>TI Analog Maker</h2>
+        <p>
+          IEEE NSIT in partnership with Texas Instruments(TI) organises the Texas Instruments Analog Maker competition for the undergraduate and postgraduate students of NSIT. Keeping in tradition with TI's philosophy of providing the tools necessary to inspire innovation and taking engineering concepts from the book to the breadboard, the event focuses on using TI-Analog IC's  in the best way to solve system level design problems.The focus will be on Linear Integrated Circuits and their use in system level design.
+        </p>
+      </div>
+      <div class="item-2">
+        <h2>Online Coding Competition</h2>
+        <p>
+          An online competitive coding competition will allow participants from all over India to compete from their homes and hostels throughout the week, to solve complex coding problems.
+        </p>
+      </div>
+      <div class="item-3">
+        <h2>Fun Events</h2>
+        <p>
+          The entire week will see a lot of small fun events to keep the participants and students engaged and entertained.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <a id="fb1" href="https://www.facebook.com/evolve.nsit/" target="_blank"><i class="fa fa-facebook tooltip"></i></a>
+    <a id="git" href="" target="_blank"><i class="fa fa-github"></i></a>
+    <a id="fb2" href="https://www.facebook.com/ieeensit/" target="_blank"><i class="fa fa-facebook tooltip"></i></a>
+</div>
+
+<div id="map">
+  </div>
+
+<script>
+function myMap() {
+  var nsit={lat:28.609881, lng:77.036975};
+  var map = new google.maps.Map(document.getElementById('map'), {zoom: 17, center: nsit});
+
+
+
+  var marker = new google.maps.Marker({
+          position: nsit,
+          map: map,
+          animation:google.maps.Animation.BOUNCE
+        });
+
+
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOEs_LcfcPrtt72pPvIqCRCKbgCoGeRvk&callback=myMap"></script>
+
+
+  <script>particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 150,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 2,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 2,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 150,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+  </script>
+
+<script>
+var counter1=0, counter2=0;
+var waypoint = new Waypoint({
+  element: document.getElementById('waypoint'),
+  handler: function(direction) {
+    counter1++;
+    // console.log('Scrolled to waypoint!');
+    if(counter1%2!==0)
+    document.getElementById("header").id = "header1";
+    else {
+      document.getElementById("header1").id = "header";
+    }
+  }
+});
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('waypoint1'),
+  handler: function(direction) {
+    counter2++;
+    // console.log('Scrolled to waypoint!');
+    if(counter2%2!==0)
+    document.getElementById("header1").id = "header2";
+    else {
+      document.getElementById("header2").id = "header1";
+    }
+  }
+});
+</script>
+
+
+</body>
+</html>
