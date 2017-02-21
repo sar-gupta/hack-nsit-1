@@ -142,7 +142,7 @@ p{
 }
 
 #contact a{
-  margin: 0 3vw;
+  margin: 0 5vw;
 }
 
 #contact i{
@@ -166,3 +166,8 @@ p{
 #git{
   color: black;
 }
+
+@media (max-width:500px){
+  #contact a{
+    margin: 0 0;
+  }
