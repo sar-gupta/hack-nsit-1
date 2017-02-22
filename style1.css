@@ -177,11 +177,13 @@ p, ul li{
   #contact a{
     margin: 0 0;
   }
-  .intro p{
+  .intro p, .intro h1{
     padding:0;
+    margin:0;
   }
   .intro{
     padding:0;
+    margin:0;
   }
 }
 
