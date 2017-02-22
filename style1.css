@@ -180,6 +180,9 @@ p, ul li{
   .intro p{
     padding:0;
   }
+  .intro{
+    padding:2vw;
+  }
 }
 
 .intro{
