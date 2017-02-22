@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "Terminal Dosis";
 }
 
 body{
@@ -34,6 +35,7 @@ body{
 #header2{
   position:sticky;
   top:-65vh;
+  z-index:3;
 }
 
 #header2 #logo{
@@ -51,7 +53,7 @@ body{
 #text-card-1{
   height: auto;
   width:100vw;
-  background-color: #2B2B2B;
+  background-color: #808080;
   z-index:7;
 }
 
@@ -64,7 +66,7 @@ body{
   -ms-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  font-family: "Abril Fatface";
+  /*font-family: "Abril Fatface";*/
   font-size: 6vh;
 }
 
@@ -96,15 +98,15 @@ body{
 }
 
 h1, h2{
-  font-family: Quicksand;
+  /*font-family: Quicksand;*/
   text-align: center;
   padding-bottom: 5vh;
   color:#FFF056;
 }
 
-p{
+p, ul li{
   font-size: 20px;
-  font-family: "Josefin slab";
+  /*font-family: "Josefin slab";*/
   color: white;
 }
 
@@ -118,7 +120,7 @@ p{
   background-color: rgba(256,256,256,1);
 }
 
-.container-1 div:hover p, .container-2 div:hover p{
+.container-1 div:hover ul li, .container-2 div:hover ul li{
   color: black;
 }
 
@@ -171,3 +173,22 @@ p{
   #contact a{
     margin: 0 0;
   }
+}
+
+.intro{
+  color: white;
+  font-size: 27px;
+  text-align: justify;
+  /*margin: 10vh;*/
+  padding: 15vh;
+  background-color: rgba(256,256,256,0.2);
+}
+
+#society{
+  text-decoration: none;
+  color: #FFD700;
+}
+
+#society:hover{
+  text-decoration: underline;
+}
