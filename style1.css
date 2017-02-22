@@ -173,6 +173,9 @@ p, ul li{
   #contact a{
     margin: 0 0;
   }
+  .intro p{
+    padding:0;
+  }
 }
 
 .intro{
