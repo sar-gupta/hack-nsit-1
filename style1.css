@@ -186,7 +186,7 @@ p, ul li{
     padding:0;
     margin:0;
   }
-  ul li, p{
+  ul li, p, .item-1, .item-2, .item-3{
     text-align:justify;
   }
 }
