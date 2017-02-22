@@ -180,6 +180,7 @@ p, ul li{
   .intro p, .intro h1{
     padding:0;
     margin:0;
+    text-align: justify;
   }
   .intro{
     padding:0;
