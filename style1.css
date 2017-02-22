@@ -120,7 +120,7 @@ p, ul li{
   background-color: rgba(256,256,256,1);
 }
 
-.container-1 div:hover ul li, .container-2 div:hover ul li{
+.container-1 div:hover ul li, .container-2 div:hover ul li, .container-1 div:hover p, .container-2 div:hover p{
   color: black;
 }
 
