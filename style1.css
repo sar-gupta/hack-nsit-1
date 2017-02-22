@@ -169,6 +169,10 @@ p, ul li{
   color: black;
 }
 
+.intro p{
+  padding-left:10vw;
+}
+
 @media (max-width:500px){
   #contact a{
     margin: 0 0;
