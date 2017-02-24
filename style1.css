@@ -40,7 +40,7 @@ body{
 
 #header2 #logo{
   position:fixed;
-  top:-7vh;
+  top:-14vh;
 }
 
 /*#header2 #particle-js{
@@ -111,13 +111,15 @@ p, ul li{
 }
 
 .container-1 div, .container-2 div{
-  -webkit-transition: background-color 1s, color 1s; /* Safari */
-    transition: background-color 1s, color 1s;
-    transition-timing-function: ease-in;
+  -webkit-transition: background-color 0.5s, color 0s; /* Safari */
+    transition: background-color 0.5s, color 0s;
+    /*transition-timing-function:ease-in;*/
 }
 
 .container-1 div:hover, .container-2 div:hover{
   background-color: rgba(256,256,256,1);
+  /*background-image: url("images/bg-flex.jpg");
+  background-size: cover;*/
 }
 
 .container-1 div:hover ul li, .container-2 div:hover ul li, .container-1 div:hover p, .container-2 div:hover p{
@@ -126,6 +128,10 @@ p, ul li{
 
 .container-1 div:hover h1, .container-2 div:hover h1, .container-1 div:hover h2, .container-2 div:hover h2{
   color: #A9A9A9;
+}
+
+.intro p{
+  padding-left: 10vw;
 }
 
 #map{
@@ -169,7 +175,7 @@ p, ul li{
   color: black;
 }
 
-@media (max-width:500px){
+@media (max-width:589px){
   #contact a{
     margin: 0 0;
   }
@@ -185,7 +191,26 @@ p, ul li{
   ul li, p, .item-1, .item-2, .item-3{
     text-align:left;
   }
+  #header2 #logo{
+    position:fixed;
+    top:-22vh;
+  }
+
+#text-card-1{
+  padding:0;
 }
+
+}
+
+
+@media (max-width:431px){
+  #header2 #logo{
+    position:fixed;
+    top:-30vh;
+  }
+
+}
+
 
 .intro{
   color: white;
