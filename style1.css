@@ -199,6 +199,7 @@ p, ul li{
   }
   #header2 #logo{
     position:fixed;
+	  top: -100vh;
     /*top:-28vh;*/
   }
 
