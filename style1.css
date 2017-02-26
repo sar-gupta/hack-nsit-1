@@ -198,7 +198,7 @@ p, ul li{
     text-align:left;
   }
   #header2 #logo{
-    position:sticky;
+    position:fixed;
     /*top:-28vh;*/
   }
 
